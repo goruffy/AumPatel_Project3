@@ -1,0 +1,332 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffa500;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar .vseat a {
+    color: orange;
+    font-weight: bold; 
+    text-decoration: none; 
+    margin-right: 20px; 
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+.header {
+    position: relative;
+}
+
+#why-choose img {
+    height: 500px;
+    width: 600px;
+}
+
+.reviews-banner {
+    background-image: url('vseatreview.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.reviews-banner .container {
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.reviews-banner h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.reviews-banner p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.aboutus-banner {
+    background-image: url('vseatabout.png');
+    background-size: contain;
+    background-position: center;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.aboutus-banner .container {
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.aboutus-banner h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #e65c00;
+}
+
+.aboutus-banner p {
+    color: #e65c00;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.banner {
+    background-image: url('vseatbanner.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; 
+}
+
+.service-banner {
+    background-image: url('vseatservice.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; 
+}
+
+.service-banner .container {
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.service-banner h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.service-banner p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#share-experience .container a {
+    padding: 10px;
+}
+
+#join-community .container a {
+    padding: 10px;
+}
+
+.banner .container {
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff6600; 
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#shop-now .container a {
+    padding: 10px;
+}
+
+#order-now .container a {
+    padding: 10px;
+}
+
+.cta-button:hover {
+    background-color: #e65c00; 
+}
+
+.product-banner {
+    background-image: url('productbanner.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; 
+}
+
+.product-banner .container {
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.product-banner h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-banner p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* Main Content */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.section {
+    background: white;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ffa500;
+    display: inline-block;
+}
+
+.section p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+.section ul, .section ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.section ul li, .section ol li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    border-top: 3px solid #ffa500;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.footer a {
+    color: #ffa500;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.8rem 0;
+    }
+
+    .header h1 {
+        font-size: 2.2rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 1.5rem;
+    }
+
+    .section h2 {
+        font-size: 1.8rem;
+    }
+
+    .section p {
+        font-size: 0.95rem;
+    }
+}
